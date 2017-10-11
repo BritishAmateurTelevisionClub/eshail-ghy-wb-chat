@@ -1,0 +1,12 @@
+{
+  "name": "batc-chat",
+  "description": "Realtime webpage chat for batc.tv",
+  "author": {
+    "name": "Phil Crump",
+    "email": "phil@philcrump.co.uk",
+    "url": "https://philcrump.co.uk"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  }
+}
