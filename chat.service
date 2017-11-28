@@ -5,8 +5,8 @@ After=syslog.target
 [Service]
 Type=simple
 User=www-data
-ExecStart=/usr/bin/node /srv/batc-chat-daemon/run
-WorkingDirectory=/srv/batc-chat-daemon/
+ExecStart=/usr/bin/node /srv/chat/main.js
+WorkingDirectory=/srv/chat/
 Restart=always
 RestartSec=3
 
