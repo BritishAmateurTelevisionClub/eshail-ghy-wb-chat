@@ -5,8 +5,8 @@ After=syslog.target
 [Service]
 Type=simple
 User=www-data
-ExecStart=/usr/bin/node /srv/chat/main.js
-WorkingDirectory=/srv/chat/
+ExecStart=/usr/bin/node {{directory}}/main.js
+WorkingDirectory={{directory}}
 Restart=always
 RestartSec=3
 
